@@ -1,3 +1,6 @@
+import os
+from os import environ
+
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "23203754"))
 API_HASH = os.environ.get("API_HASH", "61e8871aa6df4e78c4f58feb4c920d7d")
@@ -56,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
