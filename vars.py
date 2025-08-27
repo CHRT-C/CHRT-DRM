@@ -1,16 +1,16 @@
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "26184715"))
-API_HASH = os.environ.get("API_HASH", "7fc42fe25c89660b4e0b00dd7aa0beb1")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8336188494:AAHCmJZjyFD2Uh4l7T140VQ1l0uSTVaOCgE")
+API_ID = int(os.environ.get("API_ID", "23203754"))
+API_HASH = os.environ.get("API_HASH", "61e8871aa6df4e78c4f58feb4c920d7d")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8485414221:AAFIadA6uDUJDDcd-43daKrkVGQfc51E5K4")
 
-CREDIT = os.environ.get("CREDIT", "✖️ GABBAR ✖️")
+CREDIT = os.environ.get("CREDIT", "✖️ RT UG ✖️")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "GABBAR")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://dubeyji0995:Gqaqduzpm98kT6ZF@cluster0.ekxizvl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "dkdprasad123")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://dkdprasad123:S7ihZWUyVLH1MvXo@cluster0.vkhhxm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "1182777261"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5801983372"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "").split()]  # Default to owner ID
 
 # Channel Configuration
@@ -56,5 +56,6 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
